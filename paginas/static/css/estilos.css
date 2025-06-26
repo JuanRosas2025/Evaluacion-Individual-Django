@@ -1,0 +1,29 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgray;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    background: #38218a;
+    color: #fff;
+    padding: 1%;
+    min-height: 5%;
+}
+
+nav a {
+    margin-right: 1%;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 18%;
+}

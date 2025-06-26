@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Evaluacion Individual Django {% endblock %}</title>
     {% load static %}
-    <link rel="stylesheet" href="{% static'css/estilos.css' %}">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 </head>
 <body>
     <header>
@@ -16,7 +16,7 @@
         </nav>
     </header>   
     <main>
-        {% block content %}{% end block %}
+        {% block content %}{% endblock %}
     </main>
 
     {% include 'paginas/footer.html' %}
